@@ -29,7 +29,7 @@ The dataset for this project contains a collection of emails categorized as spam
 Message: The content of the email.
 Category: The label for the email (spam or ham).
 
-##How to Run
+## How to Run
 
 Clone the repository:
 git clone https://github.com/Krisha-Bhalala/Spam-Mail-Prediction.git
@@ -47,7 +47,7 @@ Example:
 
 input_mail = ["Nah I don't think he goes to usf, he lives around here though"]
 
-##How It Works
+## How It Works
 
 **Data Preprocessing**: The dataset is loaded, and missing values are handled by replacing them with empty strings.
 **Label Encoding**: The categories spam and ham are encoded as 0 and 1, respectively.
@@ -56,7 +56,7 @@ input_mail = ["Nah I don't think he goes to usf, he lives around here though"]
 **Model Evaluation**: The model's accuracy is evaluated on both training and testing data.
 **Prediction**: For any new input email, the model predicts whether the email is spam or ham.
 
-##Results
+## Results
 
 Accuracy on Training Data: The model's accuracy on the training set is printed after the training phase.
 
@@ -64,7 +64,7 @@ Accuracy on Test Data: The model’s performance is then evaluated on the test s
 
 Prediction on Input Data: The model predicts whether a sample email is spam or ham.
 
-###Example Output
+### Example Output
 
 Accuracy on training data = 0.98
 Accuracy on test data = 0.95
