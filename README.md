@@ -49,28 +49,26 @@ input_mail = ["Nah I don't think he goes to usf, he lives around here though"]
 
 ## How It Works
 
-**Data Preprocessing**: The dataset is loaded, and missing values are handled by replacing them with empty strings.
-**Label Encoding**: The categories spam and ham are encoded as 0 and 1, respectively.
-**Feature Extraction**: The text data is converted into numerical features using the TF-IDF Vectorizer.
-**Training the Model**: Logistic Regression is trained on the processed data.
-**Model Evaluation**: The model's accuracy is evaluated on both training and testing data.
-**Prediction**: For any new input email, the model predicts whether the email is spam or ham.
+- **Data Preprocessing**: The dataset is loaded, and missing values are handled by replacing them with empty strings.
+- **Label Encoding**: The categories spam and ham are encoded as 0 and 1, respectively.
+- **Feature Extraction**: The text data is converted into numerical features using the TF-IDF Vectorizer.
+- **Training the Model**: Logistic Regression is trained on the processed data.
+- **Model Evaluation**: The model's accuracy is evaluated on both training and testing data.
+- **Prediction**: For any new input email, the model predicts whether the email is spam or ham.
 
 ## Results
 
-Accuracy on Training Data: The model's accuracy on the training set is printed after the training phase.
-
-Accuracy on Test Data: The model’s performance is then evaluated on the test set, and the accuracy is displayed.
-
-Prediction on Input Data: The model predicts whether a sample email is spam or ham.
+- Accuracy on Training Data: The model's accuracy on the training set is printed after the training phase.
+- Accuracy on Test Data: The model’s performance is then evaluated on the test set, and the accuracy is displayed.
+- Prediction on Input Data: The model predicts whether a sample email is spam or ham.
 
 ### Example Output
 
-Accuracy on training data = 0.98
-Accuracy on test data = 0.95
-Prediction is: [0]
-It is a spam mail!!
+- Accuracy on training data = 0.98
+- Accuracy on test data = 0.95
+- Prediction is: [0]
+- It is a spam mail!!
 
-##License
+## License
 
 This project is licensed under the MIT License.
