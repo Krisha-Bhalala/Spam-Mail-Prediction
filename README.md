@@ -22,42 +22,55 @@ Ensure you have the following libraries installed:
 - scikit-learn
 - google-colab(only if you're using Google Colab for running the notebook)
 
-Dataset
+## Dataset
+
 The dataset for this project contains a collection of emails categorized as spam and ham. You can upload your own dataset or use the provided sample (mails_data.csv). The dataset must contain at least the following two columns:
 
 Message: The content of the email.
 Category: The label for the email (spam or ham).
 
-How to Run
+##How to Run
+
 Clone the repository:
 git clone https://github.com/Krisha-Bhalala/Spam-Mail-Prediction.git
+
 Navigate to the project directory:
 cd Spam-Mail-Prediction
+
 Download the dataset: Make sure the mails_data.csv file is placed in the same directory as the notebook or modify the file path in the script.
+
 Run the notebook: Open Spam Mail Prediction.ipynb in Jupyter Notebook or Google Colab and run the cells in sequence. The model will be trained and evaluated, and you will see predictions for test data.
+
 Run a sample prediction: You can enter a custom email message in the input_mail variable and the model will predict whether it's spam or ham.
 
 Example:
+
 input_mail = ["Nah I don't think he goes to usf, he lives around here though"]
 
-How It Works
-Data Preprocessing: The dataset is loaded, and missing values are handled by replacing them with empty strings.
-Label Encoding: The categories spam and ham are encoded as 0 and 1, respectively.
-Feature Extraction: The text data is converted into numerical features using the TF-IDF Vectorizer.
-Training the Model: Logistic Regression is trained on the processed data.
-Model Evaluation: The model's accuracy is evaluated on both training and testing data.
-Prediction: For any new input email, the model predicts whether the email is spam or ham.
+##How It Works
 
-Results
+**Data Preprocessing**: The dataset is loaded, and missing values are handled by replacing them with empty strings.
+**Label Encoding**: The categories spam and ham are encoded as 0 and 1, respectively.
+**Feature Extraction**: The text data is converted into numerical features using the TF-IDF Vectorizer.
+**Training the Model**: Logistic Regression is trained on the processed data.
+**Model Evaluation**: The model's accuracy is evaluated on both training and testing data.
+**Prediction**: For any new input email, the model predicts whether the email is spam or ham.
+
+##Results
+
 Accuracy on Training Data: The model's accuracy on the training set is printed after the training phase.
+
 Accuracy on Test Data: The model’s performance is then evaluated on the test set, and the accuracy is displayed.
+
 Prediction on Input Data: The model predicts whether a sample email is spam or ham.
 
-Example Output
+###Example Output
+
 Accuracy on training data = 0.98
 Accuracy on test data = 0.95
 Prediction is: [0]
 It is a spam mail!!
 
-License
+##License
+
 This project is licensed under the MIT License.
