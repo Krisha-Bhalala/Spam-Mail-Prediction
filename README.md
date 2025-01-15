@@ -64,8 +64,8 @@ input_mail = ["Nah I don't think he goes to usf, he lives around here though"]
 
 ### Example Output
 
-- Accuracy on training data = 0.98
-- Accuracy on test data = 0.95
+- Accuracy on training data = 0.966
+- Accuracy on test data = 0.967
 - Prediction is: [0]
 - It is a spam mail!!
 
